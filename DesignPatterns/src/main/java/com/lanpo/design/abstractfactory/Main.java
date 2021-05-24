@@ -9,11 +9,12 @@ import com.lanpo.design.factorymethod.Moveable;
  */
 public class Main {
     public static void main(String[] args) {
-        Car c = new Car();
+        AbastractFactory f = new ModernFactory();
+        Vehicle c = f.createVehicle();
         c.go();
-        AK47 w = new AK47();
+        Weapon w = f.createWeapon();
         w.shoot();
-        Bread b = new Bread();
+        Food b = f.createFood();
         b.printName();
     }
 }

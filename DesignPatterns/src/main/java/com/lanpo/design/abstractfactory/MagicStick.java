@@ -2,11 +2,11 @@ package com.lanpo.design.abstractfactory;
 
 /**
  * @author li zhipeng
- * @date 2021/5/13
+ * @date 2021/5/24
  * @Description:
  */
-public class AK47 extends Weapon{
+public class MagicStick extends Weapon{
     public void shoot(){
-        System.out.println("tuutuututuutut....");
+        System.out.println("diandiandian.....");
     }
 }
